@@ -47,7 +47,7 @@ public class Quadratic {
 			double real = -b / (2 * a);
 			double imaginary = Math.sqrt(-delta) / (2 * a);
 			System.out.format("root1 = %.2f+%.2fi", real, imaginary);
-		    System.out.format("\nroot2 = %.2f-%.2fi", real, imaginary);
+		     	System.out.format("\nroot2 = %.2f-%.2fi", real, imaginary);
 		}
 	}
 }
