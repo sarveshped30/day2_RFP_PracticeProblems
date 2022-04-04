@@ -7,7 +7,7 @@ public class SpringSeason {
 		
 		switch (m) {
 		case 3 :
-			day = 31+28+20+d;
+			day = 31+28+d;
 			if(day >= 79 && day <= 171) {
 				System.out.println("True");
 			}else {
